@@ -1,0 +1,224 @@
+ul {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  padding-inline-start: 0;
+}
+
+/* btn color */
+.MuiButtonBase-root {
+  color: var(--pui-btn-white-gray) !important;
+  background-color: var(--pui-btn-gray) !important;
+}
+
+.MuiButton-root {
+  color: var(--pui-white) !important;
+  padding: 0.15rem 3rem !important;
+  font-size: 0.9rem !important;
+  font-family: 'FuturaBT-Book' !important;
+  border-radius: 0.5rem !important;
+  margin-bottom: 15px !important;
+  line-height: 1.4 !important;
+}
+
+/* input margin */
+.MuiBox-root-3 > ul:nth-child(2) span {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.wave {
+  margin-top: 0.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.MuiBox-root-57 > ul:nth-child(4) {
+  margin-top: 2rem;
+}
+.MuiBox-root-57 > ul:nth-child(6) {
+  margin-top: 2rem;
+}
+
+/* download btn hover */
+.MuiButton-contained:hover {
+  background-color: #42444e !important;
+}
+/* download btn size */
+.MuiButton-containedSizeSmall {
+  width: 100%;
+  text-align: center;
+  height: 32px;
+}
+
+.MuiBox-root-3 > ul:nth-child(2) span {
+  margin-right: 0.75rem;
+}
+
+/* box and bg */
+.MuiBox-root {
+  text-align: left;
+  border-radius: 0.35rem;
+  /* background-color:var(--pui-black) !important; */
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+/* input text 설정 */
+input {
+  background-color: var(--pui-input-inner-gray) !important;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: center;
+  height: 32px;
+  /* padding: 0.4em 0.75rem; */
+  color: var(--pui-input-inner-white-gray) !important;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border: none;
+  font-family: 'FuturaBT-Book';
+}
+
+/* input title margin */
+.MuiBox-root-3 > ul:nth-child(2) span {
+  margin-right: 0.75rem;
+}
+.MuiBox-root-57 > ul:nth-child(2) span {
+  margin-right: 0.75rem;
+}
+
+/* input btn text color */
+.MuiInputBase-input {
+  color: var(--pui-btn-white-gray) !important;
+}
+
+/* data input bg */
+.MuiBox-root-120 {
+  border: 1px solid var(--pui-input-inner-gray) !important;
+  margin-bottom: 2rem !important;
+}
+
+/* calendar */
+.flatpickr-months .flatpickr-month {
+  background: var(--pui-card-blue) !important;
+}
+.flatpickr-weekdays {
+  background-color: var(--pui-card-blue) !important;
+}
+.flatpickr-calendar.arrowTop:after {
+  border-bottom-color: var(--pui-card-blue) !important;
+}
+span.flatpickr-weekday {
+  background-color: var(--pui-card-blue) !important;
+  color: var(--pui-btn-white) !important;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  background-color: var(--pui-card-blue) !important;
+}
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: var(--pui-card-blue) !important;
+  border-color: var(--pui-card-blue) !important;
+}
+
+/* calendar input bg */
+.numInput {
+  background-color: #fff !important;
+}
+/* calendar triangle btn active */
+.flatpickr-current-month .numInputWrapper span.arrowUp:after {
+  border-bottom-color: var(--pui-card-blue) !important;
+}
+.flatpickr-current-month .numInputWrapper span.arrowDown:after {
+  border-top-color: var(--pui-card-blue) !important;
+}
+
+/* box in databox2 */
+.jss1 {
+  width: 100% !important;
+  border: none !important;
+}
+.databox2 ul {
+  width: 100%;
+  background-color: none;
+  margin-block-end: -0.95rem !important;
+}
+.align_right {
+  text-align: right;
+}
+.databox2_border {
+  border: 1px solid #fff !important;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100% !important;
+  height: 7.5rem;
+  margin-bottom: 15px !important;
+}
+.databox2_border::-webkit-scrollbar {
+  background: var(--pui-black);
+  border-radius: 0.35rem;
+}
+.date_input {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.download_btn_wrap {
+  width: 100%;
+}
+
+/* scroll bar */
+.databox2_border::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--pui-card-black);
+}
+.databox2_border::-webkit-scrollbar-thumb:hover {
+  background-color: var(--pui-gray6);
+}
+/* scroll bar bg */
+.databox2_border::-webkit-scrollbar-track {
+  background-color: var(--pui-black);
+  border-radius: 0.35rem;
+}
+.databox2_border ul {
+  margin-block-end: -0.5rem !important;
+}
+/* none underline */
+.MuiInput-underline {
+  border-bottom: 1px solid var(--pui-btn-white-gray) !important;
+}
+/* none triangle btn  */
+.MuiNativeSelect-icon {
+  color: var(--pui-btn-white-gray) !important;
+}
+
+/* checkbox bg */
+.checkboxbg {
+  background-color: transparent !important;
+}
+
+/* none text */
+.MuiNativeSelect-root option {
+  color: var(--pui-input-inner-white-gray);
+  background-color: var(--pui-input-inner-gray);
+  font-family: 'FuturaBT-Book';
+}
+/* none text font */
+.MuiInput-formControl {
+  font-family: 'FuturaBT-Book' !important;
+}
